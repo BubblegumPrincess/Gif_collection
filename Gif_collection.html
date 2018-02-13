@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://getbootstrap.com/docs/4.0/examples/jumbotron/jumbotron.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+  <link rel="icon" type="image/png" href="http://fotohost.by/images/2018/02/08/av.png">
+  <style media="screen">
+  body {
+    background-image: url("http://fotohost.by/images/2018/02/08/sea-foam-severance.png");
+    background-color: #c2e7c6;
+  }
+
+  .header p {
+  width: 55%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+  .showUp {
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+    background-color: #f2f2f2;
+  }
+  </style>
+  <title>Fun with gifs</title>
+</head>
+<body>
+  <section class="jumbotron text-center">
+    <h1 class="display-3">Hello, mate!</h1>
+    <div class="header">
+        <p>Here's a little gif collection ｡◕‿‿◕｡</p>
+    </div>
+  </section>
+  <div class="container text-center">
+
+    <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-4 box-shadow">
+        <div class="card-body">
+          <div class="card-text">
+            <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quibusdam optio laboriosam, doloremque nesciunt.</label><br><br><br>
+            <button class="btn btn-lg btn-outline-success fas fa-angle-double-down" onclick="showArticle1()"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-body">
+            <div class="card-text">
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quibusdam, voluptatem ratione unde, quod nemo.</label><br><br><br>
+              <button class="btn btn-lg btn-outline-success fas fa-angle-double-down" onclick="showArticle2()"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-body">
+            <div class="card-text">
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nulla nam dicta, adipisci! Ipsam, assumenda!</label><br><br><br>
+              <button class="btn btn-lg btn-outline-success fas fa-angle-double-down" onclick="showArticle3()"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-body">
+            <div class="card-text">
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quia quae totam explicabo earum, labore!</label><br><br><br>
+              <button class="btn btn-lg btn-outline-success fas fa-angle-double-down" onclick="showArticle4()"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-body">
+            <div class="card-text">
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, doloribus, voluptatum. Laborum obcaecati, autem.</label><br><br><br>
+              <button class="btn btn-lg btn-outline-success fas fa-angle-double-down" onclick="showArticle5()"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card mb-4 box-shadow">
+          <div class="card-body">
+            <div class="card-text">
+              <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus laudantium corrupti veniam maiores quis ea?</label><br><br><br>
+              <button class="btn btn-lg btn-outline-success fas fa-angle-double-down" onclick="showArticle6()"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="col-md-12">
+          <article style="display:none;" class="jumbotron showUp" id="article1">
+            <p>
+              <img src="https://www.riffsy.com/view/riff/3566417/Chinchilla-eating-an-almond-GIF" alt="Nom nom nom" height="270" width="480">
+            </p>
+            <div class="card-body">
+                <button class="btn btn-lg btn-outline-success fas fa-angle-double-up" onclick="hideArticle1()"></button>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-12">
+          <article style="display:none;" class="jumbotron showUp" id="article2">
+            <p>
+              <img src="https://media.giphy.com/media/l1Kuh28roYRsKQRBS/giphy.gif" alt="Mario's shock" height="270" width="480">
+            </p>
+            <div class="card-body">
+                <button class="btn btn-lg btn-outline-success fas fa-angle-double-up" onclick="hideArticle2()"></button>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-12">
+          <article style="display:none;" class="jumbotron showUp" id="article3">
+            <p>
+              <img src="https://media.giphy.com/media/l0Iy5Qpw9pE9yX3yg/giphy.gif" alt="Wow, look at ya" height="270" width="480">
+            </p>
+            <div class="card-body">
+                <button class="btn btn-lg btn-outline-success fas fa-angle-double-up" onclick="hideArticle3()"></button>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-12">
+          <article style="display:none;" class="jumbotron showUp" id="article4">
+            <p>
+              <img src="https://media.giphy.com/media/26AHAw0aMmWwRI4Hm/giphy.gif" alt="Stop it, you" height="270" width="480">
+            </p>
+            <div class="card-body">
+                <button class="btn btn-lg btn-outline-success fas fa-angle-double-up" onclick="hideArticle4()"></button>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-12">
+          <article style="display:none;" class="jumbotron showUp" id="article5">
+            <p>
+              <img src="https://media1.giphy.com/media/rQ06xdgzj9ECA/giphy.gif" alt="Kawaii" height="270" width="480">
+            </p>
+            <div class="card-body">
+                <button class="btn btn-lg btn-outline-success fas fa-angle-double-up" onclick="hideArticle5()"></button>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-12">
+          <article style="display:none;" class="jumbotron showUp" id="article6">
+            <p>
+              <img src="https://media.giphy.com/media/3o7ZeTmU77UlPyeR2w/giphy.gif" alt="Kylo approves" height="270" width="480">
+            </p>
+            <div class="card-body">
+                <button class="btn btn-lg btn-outline-success fas fa-angle-double-up" onclick="hideArticle6()"></button>
+            </div>
+          </article>
+        </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+  function showArticle1(){
+    var x = document.getElementById('article1');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function showArticle2(){
+    var x = document.getElementById('article2');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function showArticle3(){
+    var x = document.getElementById('article3');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function showArticle4(){
+    var x = document.getElementById('article4');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function showArticle5(){
+    var x = document.getElementById('article5');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function showArticle6(){
+    var x = document.getElementById('article6');
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
+  function hideArticle1() {
+    document.getElementById('article1').style.display = 'none';
+  }
+  function hideArticle2() {
+    document.getElementById('article2').style.display = 'none';
+  }
+  function hideArticle3() {
+    document.getElementById('article3').style.display = 'none';
+  }
+  function hideArticle4() {
+    document.getElementById('article4').style.display = 'none';
+  }
+  function hideArticle5() {
+    document.getElementById('article5').style.display = 'none';
+  }
+  function hideArticle6() {
+    document.getElementById('article6').style.display = 'none';
+  }
+  </script>
+</body>
+</html>
